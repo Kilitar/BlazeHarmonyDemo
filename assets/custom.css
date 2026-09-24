@@ -1,0 +1,91 @@
+/* Blaze Harmony Brand Styling with Full Light/Dark Mode Support */
+:root {
+    --blaze-orange: #f26522;
+    --blaze-dark: #1b1f24;
+    --blaze-red: #d9381e;
+}
+
+/* Diagnostic summary card - adaptive to both dark and light modes */
+.blaze-diag-card {
+    background-color: rgba(242, 101, 34, 0.1) !important;
+    border-left: 4px solid #f26522 !important;
+    border-radius: 6px !important;
+    padding: 14px 16px !important;
+    margin-bottom: 14px !important;
+    line-height: 1.6 !important;
+}
+
+/* Ensure strong tags inside diagnostic card adapt to current theme */
+.blaze-diag-card strong {
+    color: inherit;
+    font-weight: 600;
+}
+
+/* Stylized inline code inside diagnostic card */
+.blaze-diag-card code {
+    background-color: rgba(242, 101, 34, 0.18) !important;
+    color: #f26522 !important;
+    padding: 2px 6px !important;
+    border-radius: 4px !important;
+    font-weight: 600 !important;
+    border: 1px solid rgba(242, 101, 34, 0.3) !important;
+}
+
+/* Card components with theme-adaptive background */
+.blaze-card {
+    background: rgba(128, 128, 128, 0.05);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 16px;
+}
+
+.blaze-header-badge {
+    background: linear-gradient(135deg, #f26522, #d9381e);
+    color: #ffffff !important;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+
+.kpi-container {
+    background: rgba(128, 128, 128, 0.05);
+    border-left: 4px solid #f26522;
+    padding: 14px 18px;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.15);
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.status-active {
+    background: rgba(34, 197, 94, 0.15);
+    color: #22c55e;
+}
+
+.status-warning {
+    background: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
+}
+
+.status-urgent {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+}
+
+/* Vizuální manuál - adaptivní zarovnání fotografií */
+.stImage img {
+    border-radius: 8px !important;
+    border: 1px solid rgba(128, 128, 128, 0.2) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12) !important;
+}
