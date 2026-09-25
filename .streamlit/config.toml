@@ -1,6 +1,3 @@
-[theme]
-primaryColor = "#f26522"
-
 [server]
 headless = true
 enableCORS = false
