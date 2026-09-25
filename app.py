@@ -980,7 +980,7 @@ with tab_arch:
         avg_call_min = st.slider("Průměrná doba řešení dotazu dispečinkem (minuty):", min_value=10, max_value=45, value=25, step=5)
         self_service_pct = st.slider("Očekávaný podíl dotazů vyřešených v terénu přes portál (%):", min_value=10, max_value=70, value=35, step=5)
         hourly_rate_support = st.slider("Hodinová nákladová sazba technické podpory (Kč/hod):", min_value=300, max_value=800, value=450, step=25)
-        monthly_ops_cost = st.slider("Předpokládané měsíční náklady na provoz řešení (Kč/měsíc):", min_value=2000, max_value=30000, value=8000, step=1000)
+        monthly_ops_cost = st.slider("Předpokládané měsíční náklady na provoz řešení (Kč/měsíc):", min_value=1000, max_value=10000, value=3000, step=500)
 
         # Výpočty modelu
         resolved_inquiries = inquiries_month * (self_service_pct / 100.0)
